@@ -18,6 +18,10 @@
             <button type="submit">Add Task</button>
         </form>
 
+        <form method="POST" action="{{ url_for('reset') }}">
+            <button type="submit">Reset</button>
+        </form>
+
         <h2>Priority List:</h2>
         <table>
             <tr>
@@ -32,9 +36,5 @@
             {% endfor %}
         </table>
     </div>
-
-    <!-- <footer>
-        &copy; Efficient algo
-    </footer> -->
 </body>
 </html>
