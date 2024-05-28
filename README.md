@@ -2,42 +2,42 @@
 
 This is a simple Flask web application that allows users to add tasks with due dates and prioritize them based on how soon they are due. 
 
-##Features
+## Features
 
 - Add tasks with due dates
 - Automatically prioritize tasks based on the closest due date
 - View the prioritized list of tasks
 - Reset the task list
 
-##Requirements
+## Requirements
 
 - Python 3.x
 - Flask
 
-##Setup and Installation
+## Setup and Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 ```
 git clone https://github.com/Mohammed-Majid/Task-Manager.git
 ```
-2. Create a virtual environment:
+2. **Create a virtual environment:**
 ```
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
-3. Install the dependencies:
+3. **Install the dependencies:**
 
 ``` pip install Flask ```
 
-4. Run the application:
+4. **Run the application:**
 
 ``` python app.py ```
 
-5. Open your browser and go to:
+5. **Open your browser and go to:**
    
 ``` http://127.0.0.1:5000 ```
 
-##Usage
+## Usage
 
 1. Open the application in your browser.
    
@@ -50,7 +50,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 4. Reset the task list:
   - Click the "Reset" button to clear all tasks.
     
-##Project Structure
+## Project Structure
 
 - `app.py`: The main Flask application file.
 - `templates/index.html`: The HTML template for rendering the task form and displaying the prioritized list.
