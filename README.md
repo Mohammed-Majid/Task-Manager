@@ -26,17 +26,17 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 3. **Install the dependencies:**
-
-``` pip install Flask ```
-
+```
+pip install Flask
+```
 4. **Run the application:**
-
-``` python app.py ```
-
+```
+python app.py
+```
 5. **Open your browser and go to:**
-   
-``` http://127.0.0.1:5000 ```
-
+```
+http://127.0.0.1:5000
+```
 ## Usage
 
 1. Open the application in your browser.
